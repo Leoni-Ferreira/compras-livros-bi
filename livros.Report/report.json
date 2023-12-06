@@ -1,0 +1,297 @@
+{
+  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.49\",\"type\":2}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU11",
+            "path": "BaseThemes/CY23SU11.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "fundo-clientes7790201066136708.png",
+            "path": "fundo-clientes7790201066136708.png",
+            "type": 100
+          },
+          {
+            "name": "fundo-ecommerce13551841937354725.png",
+            "path": "fundo-ecommerce13551841937354725.png",
+            "type": 100
+          },
+          {
+            "name": "fundo-vendas8517371256310298.png",
+            "path": "fundo-vendas8517371256310298.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}],\"displayArea\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"background\":[{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo-clientes.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo-clientes7790201066136708.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}}}}]}}",
+      "displayName": "Clientes",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection5ef626cddfaa8f89cfe2",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"4c1f7225e37cd9c7a4c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":344.4094488188976,\"y\":267.87401574803147,\"z\":2000,\"width\":239.5275590551181,\"height\":131.81102362204723,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Clientes.Profissão)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profissão\"}},\"Function\":3},\"Name\":\"Min(Clientes.Profissão)\",\"NativeReferenceName\":\"Primeiro Profissão\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profissão\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Profissão mais Frequente'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"lockAspect\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"general\":[{\"properties\":{\"keepLayerOrder\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F9E3D2'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 131.81,
+          "width": 239.53,
+          "x": 344.41,
+          "y": 267.87,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"591b5854b9afa049c672\",\"layouts\":[{\"id\":0,\"position\":{\"x\":344.4094488188976,\"y\":464.8818897637795,\"z\":5000,\"width\":239.5275590551181,\"height\":197.00787401574803,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Clientes.Contato Preferido\"},{\"queryRef\":\"Avg(Clientes.Idade)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Contato Preferido\"},\"Name\":\"Clientes.Contato Preferido\",\"NativeReferenceName\":\"Contato Preferido\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Idade\"}},\"Function\":1},\"Name\":\"Avg(Clientes.Idade)\",\"NativeReferenceName\":\"Média de Idade\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Contato Preferido\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"129.0069828423517D\"}}}},\"selector\":{\"metadata\":\"Clientes.Contato Preferido\"}}],\"values\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}],\"columnHeaders\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'FlashyRows'\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 197.01,
+          "width": 239.53,
+          "x": 344.41,
+          "y": 464.88,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"85a1c413b5f741b1bb2c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.677165354330707,\"y\":117.63779527559055,\"z\":0,\"width\":296.2204724409449,\"height\":561.259842519685,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"Clientes.Profissão\"},{\"queryRef\":\"CountNonNull(Clientes.Profissão)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profissão\"},\"Name\":\"Clientes.Profissão\",\"NativeReferenceName\":\"Profissão\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profissão\"}},\"Function\":5},\"Name\":\"CountNonNull(Clientes.Profissão)\",\"NativeReferenceName\":\"Contagem de Profissão\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Profissão\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"cardTitle\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ac95da'\"}}}}}}}],\"dataLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ECDEE7'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":7,\"Percent\":0.4}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 561.26,
+          "width": 296.22,
+          "x": 22.68,
+          "y": 117.64,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"8cf2d44a5e17e1e8e44c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":796.5354330708661,\"y\":15.590551181102361,\"z\":6000,\"width\":70.86614173228347,\"height\":42.519685039370074,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSection97cb719258158f36be99'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 42.52,
+          "width": 70.87,
+          "x": 796.54,
+          "y": 15.59,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"8fb3d3c1db4056b957a5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":22.677165354330707,\"y\":15.590551181102361,\"z\":8000,\"width\":148.81889763779526,\"height\":51.02362204724409,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.estantevirtual.com.br'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 51.02,
+          "width": 148.82,
+          "x": 22.68,
+          "y": 15.59,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"a8ab658dda0408290620\",\"layouts\":[{\"id\":0,\"position\":{\"x\":612.2834645669291,\"y\":189.92125984251967,\"z\":3000,\"width\":324.56692913385825,\"height\":488.97637795275585,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"X\":[{\"queryRef\":\"Clientes.Longitude\"}],\"Y\":[{\"queryRef\":\"Clientes.Latitude\"}],\"Series\":[{\"queryRef\":\"Clientes.Cidade\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Longitude\"},\"Name\":\"Clientes.Longitude\",\"NativeReferenceName\":\"Longitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Latitude\"},\"Name\":\"Clientes.Latitude\",\"NativeReferenceName\":\"Latitude\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cidade\"},\"Name\":\"Clientes.Cidade\",\"NativeReferenceName\":\"Cidade\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"16L\"}}}}}],\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"mapStyles\":[{\"properties\":{\"showLabels\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 488.98,
+          "width": 324.57,
+          "x": 612.28,
+          "y": 189.92,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"aedf543b61dc5fae78bb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":612.2834645669291,\"y\":136.06299212598424,\"z\":4000,\"width\":324.56692913385825,\"height\":65.19685039370079,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Clientes.Cidade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cidade\"},\"Name\":\"Clientes.Cidade\",\"NativeReferenceName\":\"Cidade\"}]},\"syncGroup\":{\"groupName\":\"Cidade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ECDEE7'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 65.20,
+          "width": 324.57,
+          "x": 612.28,
+          "y": 136.06,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c0baef9a60d05b1be744\",\"layouts\":[{\"id\":0,\"position\":{\"x\":693.0708661417323,\"y\":17.00787401574803,\"z\":7000,\"width\":103.46456692913385,\"height\":41.10236220472441,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSectionfd6bc30d0d6e9173de24'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 41.10,
+          "width": 103.46,
+          "x": 693.07,
+          "y": 17.01,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"ed67b4db896ffa143357\",\"layouts\":[{\"id\":0,\"position\":{\"x\":361.41732283464563,\"y\":89.29133858267716,\"z\":1000,\"width\":222.51968503937007,\"height\":100.62992125984252,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Avg(Clientes.Idade)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Idade\"}},\"Function\":1},\"Name\":\"Avg(Clientes.Idade)\",\"NativeReferenceName\":\"Média de Idade\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Idade\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'FlashyRows'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 100.63,
+          "width": 222.52,
+          "x": 361.42,
+          "y": 89.29,
+          "z": 1000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo-vendas.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo-vendas8517371256310298.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "Vendas",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection97cb719258158f36be99",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0c98e94cd8140aeff9d7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":690.6122448979592,\"y\":16.3265306122449,\"z\":4000,\"width\":99.59183673469387,\"height\":40.816326530612244,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSectionfd6bc30d0d6e9173de24'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.82,
+          "width": 99.59,
+          "x": 690.61,
+          "y": 16.33,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"131d90da1892ac92145c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":613.8775510204081,\"y\":119.18367346938774,\"z\":2000,\"width\":313.469387755102,\"height\":161.6326530612245,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Vendas por semana.Semanas\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"Vendas por semana\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Semanas\"},\"Name\":\"Vendas por semana.Semanas\",\"NativeReferenceName\":\"Semanas\"}]},\"syncGroup\":{\"groupName\":\"Semanas\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"numericInputStyle\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E4CAF9'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 161.63,
+          "width": 313.47,
+          "x": 613.88,
+          "y": 119.18,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"46c83e3bb213fe1d8c55\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.3265306122449,\"y\":302.0408163265306,\"z\":3000,\"width\":922.4489795918366,\"height\":391.83673469387753,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Vendas por semana.Semanas\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Vendas por semana.Vendas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"Vendas por semana\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Semanas\"},\"Name\":\"Vendas por semana.Semanas\",\"NativeReferenceName\":\"Semanas\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Vendas\"}},\"Function\":0},\"Name\":\"Sum(Vendas por semana.Vendas)\",\"NativeReferenceName\":\"Soma de Vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Vendas\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"labelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"titleBold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleFontSize\":{\"expr\":{\"Literal\":{\"Value\":\"21D\"}}},\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"trend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Linha de tendência 1'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DF8BEC'\"}}}}}}}],\"forecast\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Previsão 1'\"}}},\"transform\":{\"algorithm\":\"Forecast\",\"parameters\":[{\"Literal\":{\"Value\":\"7D\"},\"Name\":\"Unit\"},{\"Literal\":{\"Value\":\"6D\"},\"Name\":\"ForecastLength\"},{\"Literal\":{\"Value\":\"0D\"},\"Name\":\"IgnoreLast\"},{\"Literal\":{\"Value\":\"0.85D\"},\"Name\":\"ConfidenceLevel\"},{\"Literal\":{\"Value\":\"1D\"},\"Name\":\"MaxSeasonality\"}]},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E1969B'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"86D\"}}}},\"selector\":{\"metadata\":\"Sum(Vendas por semana.Vendas)\",\"id\":\"1\"}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E4CAF9'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Vendas por Semanas'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 391.84,
+          "width": 922.45,
+          "x": 16.33,
+          "y": 302.04,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"633bd5c9c8dc752ad56c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":365.71428571428567,\"y\":119.18367346938774,\"z\":1000,\"width\":220.40816326530611,\"height\":161.6326530612245,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Vendas por semana.Meta de vendas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"Vendas por semana\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Meta de vendas\"}},\"Function\":0},\"Name\":\"Sum(Vendas por semana.Meta de vendas)\",\"NativeReferenceName\":\"Soma de Meta de vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Meta de vendas\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E4CAF9'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 161.63,
+          "width": 220.41,
+          "x": 365.71,
+          "y": 119.18,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c1c5eadb187c78bb81c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16.3265306122449,\"y\":119.18367346938774,\"z\":0,\"width\":320,\"height\":161.6326530612245,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"gauge\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Vendas por semana.Vendas)\"}],\"TargetValue\":[{\"queryRef\":\"Sum(Vendas por semana.Meta de vendas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"v\",\"Entity\":\"Vendas por semana\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Vendas\"}},\"Function\":0},\"Name\":\"Sum(Vendas por semana.Vendas)\",\"NativeReferenceName\":\"Soma de Vendas\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Meta de vendas\"}},\"Function\":0},\"Name\":\"Sum(Vendas por semana.Meta de vendas)\",\"NativeReferenceName\":\"Soma de Meta de vendas\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"v\"}},\"Property\":\"Vendas\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"target\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"calloutValue\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E4CAF9'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 161.63,
+          "width": 320.00,
+          "x": 16.33,
+          "y": 119.18,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e42f1ffe038aa5becaf7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":875.9055118110235,\"y\":18.4251968503937,\"z\":5000,\"width\":63.77952755905511,\"height\":39.68503937007874,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSection5ef626cddfaa8f89cfe2'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.69,
+          "width": 63.78,
+          "x": 875.91,
+          "y": 18.43,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"f27795241290794fbcd4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.00787401574803,\"y\":8.503937007874015,\"z\":6000,\"width\":158.74015748031496,\"height\":58.11023622047244,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.estantevirtual.com.br'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 58.11,
+          "width": 158.74,
+          "x": 17.01,
+          "y": 8.50,
+          "z": 6000.00
+        }
+      ],
+      "width": 960.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'fundo-ecommerce.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"fundo-ecommerce13551841937354725.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
+      "displayName": "e-comerce",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSectionfd6bc30d0d6e9173de24",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0fd6d2d28acd1e54d943\",\"layouts\":[{\"id\":0,\"position\":{\"x\":313.469387755102,\"y\":81.63265306122449,\"z\":1000,\"width\":254.6938775510204,\"height\":101.22448979591836,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Clientes.Assinatura ativa)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Assinatura ativa\"}},\"Function\":5},\"Name\":\"Min(Clientes.Assinatura ativa)\",\"NativeReferenceName\":\"Contagem de Assinatura ativa1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Assinatura ativa\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"43D\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ECDEE7'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterf112c78190cd822b3473\",\"expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Clientes\"}},\"Property\":\"Assinatura ativa\"}},\"Function\":5}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":0},{\"name\":\"Filter1578ecba8e429724774e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Clientes\"}},\"Property\":\"Assinatura ativa\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Assinatura ativa\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Não'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{},\"ordinal\":1}]",
+          "height": 101.22,
+          "width": 254.69,
+          "x": 313.47,
+          "y": 81.63,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"576a51f6ae594869f552\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.590551181102361,\"y\":14.173228346456693,\"z\":7000,\"width\":153.07086614173227,\"height\":51.02362204724409,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'WebUrl'\"}}},\"webUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'https://www.estantevirtual.com.br'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 51.02,
+          "width": 153.07,
+          "x": 15.59,
+          "y": 14.17,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"58f1df0718e07f3b0182\",\"layouts\":[{\"id\":0,\"position\":{\"x\":243.26530612244898,\"y\":383.67346938775506,\"z\":4000,\"width\":703.6734693877551,\"height\":308.57142857142856,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Catálogo livros.Valor)\"}],\"Category\":[{\"queryRef\":\"Catálogo livros.Titulo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Catálogo livros\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Valor\"}},\"Function\":0},\"Name\":\"Sum(Catálogo livros.Valor)\",\"NativeReferenceName\":\"Soma de Valor\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Titulo\"},\"Name\":\"Catálogo livros.Titulo\",\"NativeReferenceName\":\"Titulo\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Valor\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"gridlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"innerPadding\":{\"expr\":{\"Literal\":{\"Value\":\"32L\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#9986C3'\"}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 308.57,
+          "width": 703.67,
+          "x": 243.27,
+          "y": 383.67,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"5a134898087061f1ab00\",\"layouts\":[{\"id\":0,\"position\":{\"x\":32.6530612244898,\"y\":124.08163265306122,\"z\":0,\"width\":174.6938775510204,\"height\":545.3061224489795,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Clientes.Cidade\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clientes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cidade\"},\"Name\":\"Clientes.Cidade\",\"NativeReferenceName\":\"Cidade\"}]},\"syncGroup\":{\"groupName\":\"Cidade\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"13D\"}}},\"italic\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"padding\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}],\"header\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ECDEE7'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"25D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 545.31,
+          "width": 174.69,
+          "x": 32.65,
+          "y": 124.08,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"6dd1d72cd0dd43e2b1e8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":802.2047244094488,\"y\":14.173228346456693,\"z\":5000,\"width\":59.527559055118104,\"height\":39.68503937007874,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSection97cb719258158f36be99'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.69,
+          "width": 59.53,
+          "x": 802.20,
+          "y": 14.17,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"7fd6c796dc9ccc338699\",\"layouts\":[{\"id\":0,\"position\":{\"x\":243.26530612244898,\"y\":222.0408163265306,\"z\":3000,\"width\":692.2448979591836,\"height\":138.77551020408163,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"ribbonChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Acessos na página.Data.Variation.Hierarquia de datas.Trimestre\",\"active\":true},{\"queryRef\":\"Acessos na página.Data.Variation.Hierarquia de datas.Mês\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(Acessos na página.Acessos)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Acessos na página\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Data\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Trimestre\"},\"Name\":\"Acessos na página.Data.Variation.Hierarquia de datas.Trimestre\",\"NativeReferenceName\":\"Data Trimestre\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Name\":\"Variation\",\"Property\":\"Data\"}},\"Hierarchy\":\"Hierarquia de datas\"}},\"Level\":\"Mês\"},\"Name\":\"Acessos na página.Data.Variation.Hierarquia de datas.Mês\",\"NativeReferenceName\":\"Data Mês\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Acessos\"}},\"Function\":1},\"Name\":\"Avg(Acessos na página.Acessos)\",\"NativeReferenceName\":\"Média de Acessos\"}]},\"queryOptions\":{\"keepProjectionOrder\":true},\"showAllRoles\":[\"Category\"],\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"objects\":{\"legend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#CE94D7'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_0f698695-af2a-45e7-9bcd-623a7418d265\"}},\"Property\":\"Trimestre\"}},\"Right\":{\"Literal\":{\"Value\":\"'Trim 4'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ACE3C7'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_0f698695-af2a-45e7-9bcd-623a7418d265\"}},\"Property\":\"Trimestre\"}},\"Right\":{\"Literal\":{\"Value\":\"'Trim 2'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F6AF90'\"}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"LocalDateTable_0f698695-af2a-45e7-9bcd-623a7418d265\"}},\"Property\":\"Trimestre\"}},\"Right\":{\"Literal\":{\"Value\":\"'Trim 3'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#9986C3'\"}}}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"valueAxis\":[{\"properties\":{\"invertAxis\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 138.78,
+          "width": 692.24,
+          "x": 243.27,
+          "y": 222.04,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"89895ec9351090b8e8fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":875.9055118110235,\"y\":14.173228346456693,\"z\":6000,\"width\":59.527559055118104,\"height\":39.68503937007874,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'ReportSection5ef626cddfaa8f89cfe2'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 39.69,
+          "width": 59.53,
+          "x": 875.91,
+          "y": 14.17,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"fc48dbd2630ed983f2f9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":669.3877551020407,\"y\":80,\"z\":2000,\"width\":266.1224489795918,\"height\":114.28571428571428,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Acessos na página.Acessos)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Acessos na página\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Acessos\"}},\"Function\":1},\"Name\":\"Sum(Acessos na página.Acessos)\",\"NativeReferenceName\":\"Média de Acessos\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Acessos\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}],\"labels\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#BDD8F2'\"}}}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"visualHeader\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 114.29,
+          "width": 266.12,
+          "x": 669.39,
+          "y": 80.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 960.00
+    }
+  ]
+}
